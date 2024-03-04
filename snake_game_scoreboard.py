@@ -37,9 +37,4 @@ class Scorboar(Turtle):
         self.goto(70,310)
         self.write(f"Score : {self.score}  High Score : {self.found_high()}",font = ('Arial',20,'normal'),align ='center',move=True)
         
-     
-     
-"""    def First_score(self):
-        self.hideturtle()
-        self.goto(-70,310)
-        self.write("Score : 0",font = ('Arial',20,'normal'),align ='center',move=True)"""
+    

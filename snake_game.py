@@ -63,7 +63,6 @@ while continue_game:
         food.delete_turtle()
         write2.clear()
         write2.printHighScore()
-        #write2.write(f"Score : {write2.Score()}",font = ('Arial',20,'normal'),align ='right',move=True)
         snake1.add_body()
     if len(snake1.square_object_list) > 3:
         for segment in snake1.square_object_list[1:]:
